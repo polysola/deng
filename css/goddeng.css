@@ -1,0 +1,905 @@
+.section_hero {
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  position: relative;
+}
+
+.header {
+  z-index: 50;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.block_header {
+  background-color: #ffb732;
+  border: 2px solid #000;
+  border-bottom-width: 7px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 65px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+}
+
+.menu_link {
+  color: #694306;
+  background-color: #0000;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 3px 0 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+}
+
+.image {
+  height: 65%;
+  margin-bottom: 25px;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.div-block {
+  width: auto;
+  height: 65%;
+  position: absolute;
+  inset: auto auto 2%;
+}
+
+.image-2 {
+  border: 5px solid #e4cb82;
+  border-radius: 0%;
+  height: 100%;
+}
+
+.block_ca_hero {
+  justify-content: center;
+  align-items: center;
+  height: 68%;
+  margin-top: 50px;
+  margin-bottom: 0;
+  display: flex;
+  position: relative;
+  inset: auto auto 0%;
+}
+
+.cat_hero {
+  height: 100%;
+  position: absolute;
+}
+
+.cat_bg {
+  border: 3px solid #fff;
+  border-radius: 20px;
+  height: 80%;
+  position: static;
+  inset: 0%;
+}
+
+.background_cats {
+  z-index: -1;
+  opacity: .41;
+  mix-blend-mode: luminosity;
+  background-image: linear-gradient(#ffe7a4ad, #ffe7a4ad), url('../images/catgif.html');
+  background-position: 0 0, 50% 100%;
+  background-size: auto, auto 100px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.body {
+  background-color: #ffe7a4;
+}
+
+.wrapper {
+  background-image: linear-gradient(#fff, #074772);
+  flex-flow: column;
+  display: flex;
+  position: relative;
+}
+
+.section_about {
+  background-image: none;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  display: flex;
+  position: relative;
+}
+
+.text-block {
+  text-align: center;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  inset: auto auto -8%;
+}
+
+.block_para {
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  display: none;
+  position: absolute;
+  inset: auto auto -8%;
+}
+
+.para1 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.logo {
+  height: 33%;
+  margin-top: 50px;
+  position: absolute;
+  inset: 0% auto auto;
+}
+
+.duck_hero {
+  height: 100%;
+  position: static;
+  inset: auto auto 0%;
+}
+
+.block_hero {
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  display: flex;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.hero_para {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin-top: 35px;
+  display: flex;
+}
+
+.ca {
+  color: #333;
+  background-color: #fffdcd;
+  border: 3px solid #000;
+  border-bottom-width: 7px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 55px;
+  margin-top: 22px;
+  margin-bottom: 25px;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  display: flex;
+  position: absolute;
+  inset: auto auto 0%;
+  box-shadow: 0 0 20px #fef595;
+}
+
+.ca:hover {
+  border-top-width: 7px;
+  border-bottom-width: 3px;
+}
+
+.grass_hero {
+  background-image: url('../images/hero_grass.svg');
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 22%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.separator {
+  background-color: #b6dbf5;
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  width: 100%;
+  height: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.separator_in {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.section_header {
+  z-index: 50;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.header_socials {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.tg {
+  z-index: 50;
+  color: #553c0f;
+  background-color: #fffdcd;
+  background-image: url('../images/tg.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+  box-shadow: 0 0 20px #fef595;
+}
+
+.tg:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.hero {
+  background-color: #0000;
+  background-image: linear-gradient(#074772, #fff 72%);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.button_meme {
+  z-index: 50;
+  color: #333;
+  background-color: #fffdcd;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+  box-shadow: 0 0 20px #fef595;
+}
+
+.button_meme:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.para_block {
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+.para {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 33px;
+  line-height: 45px;
+}
+
+.tiktok {
+  border: 7px solid #000;
+  border-width: 3px 7px 7px 3px;
+  border-radius: 11px;
+  margin-top: -15px;
+  position: relative;
+}
+
+.block_duck_hero {
+  height: 100%;
+  position: relative;
+}
+
+.video_about {
+  background-image: url('../images/main.png');
+  background-position: 0 0;
+  background-size: cover;
+  border: 3px solid #fffcd7;
+  border-radius: 12px;
+  width: 350px;
+  height: 430px;
+  margin-top: 50px;
+  position: relative;
+  box-shadow: 0 0 20px #fef595;
+}
+
+.background-video {
+  height: 100%;
+}
+
+.wave {
+  background-image: url('../images/wave.svg');
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.glasses {
+  position: absolute;
+  inset: 0%;
+}
+
+.section_content {
+  background-color: #0000;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 50px 0 75px;
+  display: flex;
+  position: relative;
+}
+
+.meme {
+  border: 3px solid #fffcd7;
+  border-radius: 17px;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 0 20px #fef595;
+}
+
+.block_memes {
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.wave2 {
+  background-image: url('../images/wave2.svg');
+  background-position: 100% 100%;
+  background-size: auto 100%;
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.section_generator {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.h2 {
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.h1 {
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 115px;
+  line-height: 115px;
+}
+
+.memes {
+  background-color: #ffb452;
+  border: 3px solid #000;
+  border-bottom-width: 10px;
+  border-radius: 0;
+  width: 450px;
+  height: 450px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.generated {
+  background-color: #fff;
+  background-image: url('../images/original.html');
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.button_generate {
+  z-index: 50;
+  color: #333;
+  background-color: #ffb452;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  margin: 0 0 5px;
+  padding-top: 3px;
+  padding-bottom: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+}
+
+.button_generate:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.meme_sec {
+  flex-flow: column;
+  margin-top: 50px;
+  display: flex;
+}
+
+.button_save {
+  z-index: 50;
+  color: #333;
+  background-color: #ffb452;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  margin: 0 0 5px;
+  padding-top: 3px;
+  padding-bottom: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+}
+
+.button_save:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.insta {
+  z-index: 50;
+  color: #553c0f;
+  background-color: #ffb452;
+  background-image: url('../images/insta.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+}
+
+.insta:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.tik {
+  z-index: 50;
+  color: #553c0f;
+  background-color: #ffb452;
+  background-image: url('../images/tiktok.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+}
+
+.tik:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.x {
+  z-index: 50;
+  color: #553c0f;
+  background-color: #fffdcd;
+  background-image: url('../images/x.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+  box-shadow: 0 0 20px #fef595;
+}
+
+.x:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Comic Kings, sans-serif;
+  font-size: 20px;
+}
+
+.welcome {
+  z-index: 1000;
+  background-color: #ffe7a4;
+  background-image: linear-gradient(#074772, #fff);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: fixed;
+  inset: 0%;
+}
+
+.h4 {
+  color: #ffe2a3;
+  text-align: center;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.continue {
+  z-index: 50;
+  color: #333;
+  background-color: #ffe2a3;
+  border: 3px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin: 25px 0 0;
+  padding-top: 3px;
+  padding-bottom: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: static;
+  inset: auto auto 0% 0%;
+  box-shadow: 0 0 20px #ffde96;
+}
+
+.continue:hover {
+  border-top-width: 5px;
+  border-bottom-width: 3px;
+}
+
+.hippo {
+  height: 70%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.halo {
+  position: absolute;
+  inset: 9% auto auto;
+}
+
+.rays {
+  mix-blend-mode: screen;
+  position: absolute;
+}
+
+.clouds {
+  mix-blend-mode: screen;
+  background-image: url('../images/clouds_bg.png');
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  inset: 0%;
+}
+
+.h5 {
+  color: #333;
+  text-align: center;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 991px) {
+  .ca {
+    width: 90%;
+  }
+
+  .section_header {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    inset: 0% 0% auto;
+  }
+
+  .block_button_meme {
+    margin: 15px;
+    position: absolute;
+    inset: 0% auto auto 0%;
+  }
+
+  .header_socials {
+    margin: 15px;
+    position: absolute;
+    inset: 0% 0% auto auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .para1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .logo {
+    height: 28%;
+    top: 4%;
+  }
+
+  .block_hero {
+    height: 60%;
+  }
+
+  .hero_para {
+    width: 300px;
+    position: relative;
+    left: -20px;
+  }
+
+  .ca {
+    z-index: 50;
+    position: absolute;
+  }
+
+  .para_block {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .logo {
+    width: 90%;
+    height: auto;
+    margin-top: 108px;
+  }
+
+  .block_hero {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+  }
+
+  .hero_para {
+    margin-top: 65px;
+    position: static;
+    top: -189.125px;
+    left: auto;
+  }
+
+  .separator {
+    z-index: 3;
+    position: relative;
+  }
+
+  .section_header {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+  }
+
+  .header_socials {
+    margin-top: 15px;
+  }
+
+  .tg {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .para_block, .tiktok {
+    width: 90%;
+  }
+
+  .block_duck_hero {
+    z-index: 2;
+    width: auto;
+    height: 50%;
+    margin-bottom: -28px;
+    position: absolute;
+    inset: auto auto 0%;
+  }
+
+  .video_about {
+    width: 90%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .meme {
+    width: 300px;
+    height: 300px;
+  }
+
+  .h1 {
+    font-size: 80px;
+  }
+
+  .memes {
+    width: 310px;
+    height: 310px;
+  }
+
+  .insta, .tik, .x {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .hippo {
+    width: 100%;
+    height: auto;
+    margin-right: 40px;
+    bottom: 10%;
+  }
+
+  .halo {
+    inset: auto auto 39%;
+  }
+
+  .clouds {
+    background-image: url('../images/clouds_bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .clouds._2 {
+    opacity: .36;
+  }
+
+  .h5 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Coffee Spark';
+  src: url('../fonts/Coffee-Spark.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Comic Kings';
+  src: url('../fonts/Comic-Kings.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Super Ocean Personal Use';
+  src: url('../fonts/Super-Ocean-Personal-Use.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
